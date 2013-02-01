@@ -14,7 +14,7 @@ class cbadmin extends ControllerMVC
 	default: ->
 		ah = AuthHelper.singleton()
 		promise = ah.sendUID()
-		@template.title = ""
+		@template.title = "Test Commit"
 		return promise
 
 	doSomething: ->
